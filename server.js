@@ -1,14 +1,20 @@
 import express, { static, json, urlencoded } from 'express';
 import routes from './controllers';
 import sequelize, { sync } from './config/connection';
+
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 5000;
+
 import { create } from 'express-handlebars';
 import helpers from './utils/helpers';
+
 const hbs = create({helpers});
+
 import session, { Store } from 'express-session';
 import { join } from 'path';
+
 const SequelizeStore = require('connect-session-sequelize')(Store)
+
 require('dotenv').config();
 
 import morgan from 'morgan';
