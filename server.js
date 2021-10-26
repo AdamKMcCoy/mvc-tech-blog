@@ -29,7 +29,6 @@ app.use(json());
 app.use(urlencoded({extended: true}));
 app.use(morgan('tiny'));
 app.use(routes);
-let port = process.env.PORT || 8080;
 sync({ force: false }).then(() => {
     app.listen(PORT, () => console.log('Now listening'));
 });
