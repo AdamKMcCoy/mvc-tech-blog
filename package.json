@@ -12,10 +12,10 @@
     "type": "git",
     "url": "git+https://github.com/AdamKMcCoy/mvc-tech-blog"
   },
-  "author": "",
+  "author": "https://github.com/AdamKMcCoy/mvc-tech-blog/blob/main/README.md",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/AdamKMcCoy/mvc-tech-blog/issues"
   },
   "homepage": "",
   "dependencies": {
