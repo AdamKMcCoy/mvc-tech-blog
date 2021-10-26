@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/AdamKMcCoy/mvc-tech-blog/issues"
   },
-  "homepage": "",
+  "homepage": "git+https://github.com/AdamKMcCoy/mvc-tech-blog",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.1",
